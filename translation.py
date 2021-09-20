@@ -2,7 +2,7 @@ class Translation(object):
 
     START_TEXT = """Hi {},
 
-I'm X-URL-Uploader!
+I'm URL-Uploader!
 
 You can upload HTTP/HTTPS direct link, Using this bot!
 
@@ -20,9 +20,9 @@ URL | filename | username | password"""
 
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 2GB due to Telegram API limitations."
 
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "Thanks for using @xurluploaderbot)"
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "Thanks for using bot)"
 
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds.\nUploaded in {} seconds.\n\n@xurluploaderbot"
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds.\nUploaded in {} seconds.\n\nbot"
 
     SAVED_CUSTOM_THUMB_NAIL = "Custom video / file thumbnail saved. This image will be used in the video / file."
 
@@ -50,7 +50,7 @@ URL | filename | username | password"""
 
    File   - Give File without Screenshots
 
-If bot didn't respond, contact @xgorn"""
+If bot didn't respond, code yourself"""
 
     REPLY_TO_MEDIA_ALBUM_TO_GEN_THUMB = "Reply /genthumbnail to a media album, to generate custom thumbnail"
 
